@@ -1,0 +1,30 @@
+C:\Users\muthukumar_MA\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/muthukumar_MA/Documents/python_try/Muthu_GUI.py
+Get all the window object: [Win32Window(hWnd=65722), Win32Window(hWnd=65788), Win32Window(hWnd=131642), Win32Window(hWnd=1639052), Win32Window(hWnd=656338), Win32Window(hWnd=656502), Win32Window(hWnd=591150), Win32Window(hWnd=66880), Win32Window(hWnd=525274), Win32Window(hWnd=197668), Win32Window(hWnd=197532), Win32Window(hWnd=65998), Win32Window(hWnd=590648), Win32Window(hWnd=721660), Win32Window(hWnd=1246498), Win32Window(hWnd=65874)]
+list_for_all_window_title_id:  ['65722', '65788', '131642', '1639052', '656338', '656502', '591150', '66880', '525274', '197668', '197532', '65998', '590648', '721660', '1246498', '65874']
+all_the_opened_win_title_name:  ['', '', 'pythonProject1 – C:\\Users\\muthukumar_MA\\Documents\\python_try\\Muthu_GUI.py', 'Bandicam (Unregistered)', 'Bandicam', 'C:\\Windows\\System32\\cmd.exe', '', '', 'IDLE Shell 3.9.2', 'Calculator', 'Calculator', 'Windows Shell Experience Host', '', 'IDLE Shell 3.9.2', '', 'Program Manager']
+Successfully accessed the current window!
+Get all the window object: [Win32Window(hWnd=65722), Win32Window(hWnd=525172), Win32Window(hWnd=131642), Win32Window(hWnd=1639052), Win32Window(hWnd=656338), Win32Window(hWnd=656502), Win32Window(hWnd=591150), Win32Window(hWnd=66880), Win32Window(hWnd=525274), Win32Window(hWnd=197668), Win32Window(hWnd=197532), Win32Window(hWnd=65998), Win32Window(hWnd=721660), Win32Window(hWnd=1246498), Win32Window(hWnd=65874)]
+list_for_all_window_title_id:  ['65722', '525172', '131642', '1639052', '656338', '656502', '591150', '66880', '525274', '197668', '197532', '65998', '721660', '1246498', '65874']
+all_the_opened_win_title_name:  ['', 'Untitled - Paint', 'pythonProject1 – C:\\Users\\muthukumar_MA\\Documents\\python_try\\Muthu_GUI.py', 'Bandicam (Unregistered)', 'Bandicam', 'C:\\Windows\\System32\\cmd.exe', '', '', 'IDLE Shell 3.9.2', 'Calculator', 'Calculator', 'Windows Shell Experience Host', 'IDLE Shell 3.9.2', '', 'Program Manager']
+selected_title:  <Win32Window left="-8", top="-8", width="1382", height="744", title="Untitled - Paint">
+From decorator function
+Function name is: <function MuthuGUIAutomation.window_maximize_func at 0x000000328F2A9430>
+from decorator:: Current window title name:  <Win32Window left="-8", top="-8", width="1382", height="744", title="Untitled - Paint">
+from decorator:: Check maximize:  True
+from decorator:: Already maximized...
+Paint job is running...
+Get all the window object: [Win32Window(hWnd=65722), Win32Window(hWnd=65788), Win32Window(hWnd=656980), Win32Window(hWnd=525172), Win32Window(hWnd=131642), Win32Window(hWnd=1639052), Win32Window(hWnd=656338), Win32Window(hWnd=656502), Win32Window(hWnd=591150), Win32Window(hWnd=66880), Win32Window(hWnd=525274), Win32Window(hWnd=197668), Win32Window(hWnd=197532), Win32Window(hWnd=65998), Win32Window(hWnd=590648), Win32Window(hWnd=721660), Win32Window(hWnd=1246498), Win32Window(hWnd=65874)]
+list_for_all_window_title_id:  ['65722', '65788', '656980', '525172', '131642', '1639052', '656338', '656502', '591150', '66880', '525274', '197668', '197532', '65998', '590648', '721660', '1246498', '65874']
+all_the_opened_win_title_name:  ['', '', 'Save As', 'Untitled - Paint', 'pythonProject1 – C:\\Users\\muthukumar_MA\\Documents\\python_try\\Muthu_GUI.py', 'Bandicam (Unregistered)', 'Bandicam', 'C:\\Windows\\System32\\cmd.exe', '', '', 'IDLE Shell 3.9.2', 'Calculator', 'Calculator', 'Windows Shell Experience Host', '', 'IDLE Shell 3.9.2', '', 'Program Manager']
+Closing the window for Paint ...
+Get all the window object: [Win32Window(hWnd=65722), Win32Window(hWnd=394906), Win32Window(hWnd=131642), Win32Window(hWnd=1639052), Win32Window(hWnd=656338), Win32Window(hWnd=656502), Win32Window(hWnd=591150), Win32Window(hWnd=66880), Win32Window(hWnd=525274), Win32Window(hWnd=197668), Win32Window(hWnd=197532), Win32Window(hWnd=65998), Win32Window(hWnd=721660), Win32Window(hWnd=1246498), Win32Window(hWnd=65874)]
+list_for_all_window_title_id:  ['65722', '394906', '131642', '1639052', '656338', '656502', '591150', '66880', '525274', '197668', '197532', '65998', '721660', '1246498', '65874']
+all_the_opened_win_title_name:  ['', 'New Tab - Google Chrome', 'pythonProject1 – C:\\Users\\muthukumar_MA\\Documents\\python_try\\Muthu_GUI.py', 'Bandicam (Unregistered)', 'Bandicam', 'C:\\Windows\\System32\\cmd.exe', '', '', 'IDLE Shell 3.9.2', 'Calculator', 'Calculator', 'Windows Shell Experience Host', 'IDLE Shell 3.9.2', '', 'Program Manager']
+selected_title:  <Win32Window left="-8", top="-8", width="1382", height="744", title="New Tab - Google Chrome">
+From decorator function
+Function name is: <function MuthuGUIAutomation.window_maximize_func at 0x000000328F2A9430>
+from decorator:: Current window title name:  <Win32Window left="-8", top="-8", width="1382", height="744", title="New Tab - Google Chrome">
+from decorator:: Check maximize:  True
+from decorator:: Already maximized...
+Chrome job is running...
+Closing the window for Google Chrome ...
