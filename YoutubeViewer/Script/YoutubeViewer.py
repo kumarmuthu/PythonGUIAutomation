@@ -40,7 +40,7 @@ def argparse_function(log_obj):
                          help='Default true, Users can add more than one video links in "config.txt" file, '
                               'if false, Run hardcoded video link')
     arg_obj.add_argument('--loop-test', type=str, choices=['true', 'false'],
-                         dest='loop_test', required=False, default='false',
+                         dest='loop_test', required=False, default='true',
                          help='Default false, either one or more than one video link will run one time, if true, '
                               'either one or more than one video link will repeatedly run (until main test timeout)')
     arg_obj.add_argument('--loop-count', type=str, dest='loop_count', required=False, help='based on the count')
