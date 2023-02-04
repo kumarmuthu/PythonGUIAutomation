@@ -76,9 +76,9 @@ def argparse_function(log_obj):
         list_for_video_link.append(default_video_link)
 
     # Get total main test runtime in seconds format
-    final_main_test_run_time = runtime_converter(log_obj, arg_obj, main_test_runtime)
+    final_main_test_run_time = runtime_converter(log_obj, main_test_runtime, arg_obj)
     # Get chrome test runtime in seconds format
-    final_chrome_test_runtime = runtime_converter(log_obj, arg_obj, chrome_test_runtime)
+    final_chrome_test_runtime = runtime_converter(log_obj, chrome_test_runtime, arg_obj)
     # Set loop test boolean value
     if user_loop_test == 'true' and isinstance(user_loop_count, str):
         raise CustomException("Both loop-test and loop-count arguments are present!, "
