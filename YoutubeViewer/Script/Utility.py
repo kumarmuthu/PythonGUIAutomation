@@ -56,12 +56,12 @@ def logger_function(file_name=None):
 
 
 # Utility - runtime converter
-def runtime_converter(log_obj, arg_obj, user_given_runtime):
+def runtime_converter(log_obj, user_given_runtime, arg_obj=None):
     """
     ..codeauthor:: Muthukumar Subramanian
     :param log_obj: logger object
-    :param arg_obj: argparse object
     :param user_given_runtime: user given runtime from argparse
+    :param arg_obj: argparse object
     :return: int(any to seconds)
     """
     seconds = 0
@@ -96,8 +96,11 @@ def runtime_converter(log_obj, arg_obj, user_given_runtime):
             test_timeout_value = days
         log_obj.info("Days:Hours:Minutes:Seconds-> %d:%d:%d:%d" % (days, hours, minutes, seconds))
     else:
-        arg_obj.print_help()
-        sys.exit(0)
+        if arg_obj is not None:
+            arg_obj.print_help()
+            sys.exit(0)
+        else:
+            raise CustomException("Given runtime format is invalid!, Example: '1s, 1m, 1h, 1d'")
     return test_timeout_value
 
 

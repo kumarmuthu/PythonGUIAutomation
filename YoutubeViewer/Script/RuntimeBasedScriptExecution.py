@@ -166,7 +166,7 @@ class RuntimeBasedScriptExecution(metaclass=Singleton, update=None):
             # child_func_test_total_time = test_end_time(child_func_test_start_time)
         except CustomException as err:
             self.log_obj.error(f"Observed exception in run_child_job function, Exception: {err}")
-            raise "Observed exception in run_child_job function"
+            raise CustomException("Observed exception in run_child_job function")
         return True
 
     def run_loop_test(self, loop_test_start_time, job_function_name, total_video_count, **kwargs):
@@ -246,7 +246,7 @@ class RuntimeBasedScriptExecution(metaclass=Singleton, update=None):
                     break
         except CustomException as err:
             self.log_obj.error(f"Observed exception in CountDown function, Exception: {err}")
-            raise "Observed exception in CountDown function"
+            raise CustomException("Observed exception in CountDown function")
         return end_time
 
     def child_runtime_monitor(self, thread_obj, monitor_start_time, test_elapse_runtime=1, *args, **kwargs):
@@ -283,7 +283,7 @@ class RuntimeBasedScriptExecution(metaclass=Singleton, update=None):
                     break
         except CustomException as err:
             self.log_obj.error(f"Observed exception in CountDown function, Exception: {err}")
-            raise "Observed exception in CountDown function"
+            raise CustomException("Observed exception in CountDown function")
         return end_time
 
     def main_method(self, user_elapse_runtime, obj=None, **kwargs):
