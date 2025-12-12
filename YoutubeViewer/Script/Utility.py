@@ -38,7 +38,7 @@ def logger_function(file_name=None):
     logging.basicConfig(filename='%s.log' % file_name,
                         format='%(asctime)s %(threadName)s %(module)s, %(funcName)s,'
                                'line: %(lineno)d %(levelname)8s | %(message)s',
-                        datefmt='%Y/%m/%d %H:%M:%S', filemode='w', level=logging.INFO)
+                        datefmt='%Y/%m/%d %H:%M:%S', filemode='w', level=logging.INFO, encoding="utf-8")
     # File handler will create a file
     log_obj = logging.getLogger(file_name)
     file_name_with_extension = '%s.log' % file_name
